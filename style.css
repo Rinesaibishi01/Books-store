@@ -187,7 +187,6 @@ nav a {
   outline: none;
   border-radius: 100px;
   padding: 1em;
-  
   box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
   transition: 300ms ease-in-out;
 }
@@ -197,4 +196,78 @@ nav a {
   transform: scale(1.05);
   box-shadow: 13px 13px 100px #e3d4bc, -13px -13px 100px #ffffff;
 }
+.rreshti-kartave {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
 
+.karta-libri {
+    width: 270px;
+    background:#ecd9bd;
+    border: 1px solid #e0d4c2;
+    border-radius: 14px;
+    padding: 12px;
+    transition: 0.25s;
+}
+
+.karta-libri:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+.titulli{
+    font-size: 26px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    color: #2b2b2b;
+}
+.foto-libri {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.titulli-libri {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0 4px;
+}
+
+.autori-libri {
+    color: #7b7b7b;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.vleresimi {
+    font-size: 14px;
+    color: #d1a300;
+    margin-bottom: 10px;
+}
+
+.poshte-kartes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cmimi {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.butoni-shto {
+    padding: 6px 10px;
+    border-radius: 8px;
+    background: #ecd9bd;
+    border: 1px solid #c1aa8c;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.butoni-shto:hover {
+    background: #d8c4a5;
+}
