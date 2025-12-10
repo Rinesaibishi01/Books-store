@@ -271,3 +271,43 @@ nav a {
 .butoni-shto:hover {
     background: #d8c4a5;
 }
+.footer {
+    background-color: #2d3c48;
+    padding: 50px 0;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.konteineri-footer {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.kolona-footer {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.kolona-footer h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.kolona-footer a {
+    display: block;
+    color: #d0d5da;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.kolona-footer a:hover {
+    color: #ffffff;
+    padding-left: 4px;
+}
