@@ -14,11 +14,26 @@ body {
 header.header {
     max-width: 1200px;
     margin: 30px auto;
-    padding: 0 20px;
+    padding: 15px 30px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    background: #fff7ef;              
+    border-radius: 14px;               
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08); 
+    backdrop-filter: blur(4px);       
+    
+    transition: 0.3s ease-in-out;
 }
+
+
+header.header:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
 
 .logo {
     font-family: "Playfair Display", serif;
@@ -183,19 +198,41 @@ nav a {
     
 }
 .input {
+  width: 100%;
+  max-width: 350px;
+
   border: none;
   outline: none;
-  border-radius: 100px;
-  padding: 1em;
-  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
-  transition: 300ms ease-in-out;
+  border-radius: 50px;
+
+  padding: 0.9em 1.2em;
+  font-size: 1rem;
+  background: #f8f1e6;
+
+  color: #6b5f51;
+
+  box-shadow:
+    8px 8px 20px rgba(0,0,0,0.08),
+    -8px -8px 20px rgba(255,255,255,0.9);
+  
+  transition: 300ms ease;
+}
+
+.input::placeholder {
+  color: #a89c8c;
+  opacity: 0.8;
 }
 
 .input:focus {
   background-color: #ffffff;
-  transform: scale(1.05);
-  box-shadow: 13px 13px 100px #e3d4bc, -13px -13px 100px #ffffff;
+  transform: scale(1.06);
+
+  box-shadow:
+    0 0 0 3px #f1e4cd,
+    10px 10px 35px rgba(0,0,0,0.15),
+    -10px -10px 35px rgba(255,255,255,0.8);
 }
+
 .rreshti-kartave {
     display: flex;
     justify-content: center;
