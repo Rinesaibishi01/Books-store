@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BestBook.com</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="store.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 
@@ -38,58 +38,51 @@
             <div class="icon">👤</div>
         </div>
     </header>
- <section class="ballina">
-    <div class="container">
-      <div class="ballina-text">
-        <h1>About Our Bookstore</h1>
-        <p>
-          Ne jemi një librari e përkushtuar për të ofruar libra cilësorë për çdo lexues.
-          Qëllimi ynë është të krijojmë një hapësirë ku dashamirësit e librit gjejnë motivim dhe frymëzim.
-        </p>
-      </div>
-
-      <img src="images/image.png" alt="Bookstore illustration">
-    </div>
-  </section>
- <section class="misioni">
-    <div class="mbulesa-misionit">
-
-        <div class="misioni-foto">
-            <img src="images/mission.jpg" alt="">
+ <section id="seksioniSlideri">
+    <div class="slideri">
+  <button class="arrow prev">&#10094;</button>
+        <div class="slide active">
+            <div class="fotoSlide">
+                <img src="images/foto1.png" alt="Titulli i librit 1">
+            </div>
+            <div class="tekstiSlide">
+              <h2 class="titulliLibri">Narcisti Dhe Gojarti</h2>
+              <p class="autori">Autori: Herman Hesse</p>
+              <p class="pershkrimi">Një libër që ju udhëheq në aventurat e fantazisë dhe imagjinatës.</p>
+               <button class="btn">Shop Now</button>
+</div>
         </div>
 
-        <div class="misioni-teksti">
-            <h2>Misioni Ynë: Ndihmojmë Lexuesit të Zhvillohen</h2>
-
-            <p>
-                Ne besojmë jo vetëm në rritjen më të madhe, por në rritjen më të mirë.
-                Të lexuarit hap mendjen, rrit kreativitetin dhe përmirëson jetën.
-                Prandaj synojmë të sjellim libra që frymëzojnë, motivojnë dhe
-                pasurojnë çdo lexues — në çdo hap të rrugëtimit të tij.
-            </p>
+        <div class="slide">
+            <div class="fotoSlide">
+                <img src="images/foto2.png" alt="Titulli i librit 2">
+            </div>
+            <div class="tekstiSlide">
+                <h2 class="titulliLibri">Nga Ana E Suanit</h2>
+                <p class="autori">Autori: Marcel Proust</p>
+                <p class="pershkrimi">Një tregim emocionues për jetën dhe sfidat e saj.</p>
+                <button class="btn">Shop Now</button>
+            </div>
         </div>
 
+        <div class="slide">
+            <div class="fotoSlide">
+                <img src="images/foto3.png" alt="Titulli i librit 3">
+            </div>
+            <div class="tekstiSlide">
+                <h2 class="titulliLibri">Dashurite E Medha Nuk Veshin Fustan Nuserie</h2>
+                <p class="autori">Autori: Mitsi Valaka</p>
+                <p class="pershkrimi">Një libër që zgjon kureshtjen dhe dashurinë për leximin.</p>
+                <button class="btn">Shop Now</button>
+            </div>
+        </div>
+  <button class="arrow next">&#10095;</button>
     </div>
 </section>
-  <section class="vlerat">
-    <div class="container">
-      <div class="vlerat-box">
-        <h3>Cilësi</h3>
-        <p>Ne zgjedhim libra të verifikuar dhe të kërkuar nga lexuesit.</p>
-      </div>
 
-      <div class="vlerat-box">
-        <h3>Shërbim Profesional</h3>
-        <p>Stafi ynë është gjithmonë i gatshëm t ju ndihmojë me rekomandime.</p>
-      </div>
 
-      <div class="vlerat-box">
-        <h3>Përkushtim</h3>
-        <p>Jemi të përkushtuar të sjellim përvoja të bukura leximi.</p>
-      </div>
-    </div>
-  </section>
-  <footer class="footer">
+
+      <footer class="footer">
     <div class="konteineri-footer">
 
         <div class="kolona-footer">
@@ -133,5 +126,6 @@
 
     </div>
 </footer>
+<script src="store.js"></script>
 </body>
 </html>
